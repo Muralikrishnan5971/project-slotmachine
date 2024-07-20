@@ -10,6 +10,7 @@
  */
 
 const prompt = require("prompt-sync")();
+const bet = getBet(balance, numberOfLines)
 
 const ROWS = 3
 const COLS = 3
@@ -37,7 +38,7 @@ const deposit = () => {
         }
     }
 }
-
+const name = "muralikrishnan"
 const getNumberOfLines = () => {
 
     while(true) {
@@ -72,4 +73,16 @@ const getBet = (balance, lines) => {
 
 let balance = deposit()
 const numberOfLines = getNumberOfLines()
-const bet = getBet(balance, numberOfLines)
+
+
+
+let newLines = deposit()
+
+
+
+
+
+
+
+
+
